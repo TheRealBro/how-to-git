@@ -88,6 +88,11 @@ body {
     font-size: 75%;
 }
 
+.reveal .title-gpgkey {
+    color: #b9dc92;
+    font-size: 50%;
+}
+
 .reveal p {
   margin: 20px 0;
   line-height: 1.3;

@@ -1,41 +1,46 @@
-## Demo 1
-Slide 1
+## Version control
 
----
-
-## Demo 2
-Slide 3
-
----
-
-## Demo 3
-Slide 3.1
+Note:
+links on top
+* https://guides.github.com/introduction/git-handbook/
+* https://en.wikipedia.org/wiki/Version_control
+* https://en.wikipedia.org/wiki/Git
+* https://betterexplained.com/articles/a-visual-guide-to-version-control/
+* https://betterexplained.com/articles/intro-to-distributed-version-control-illustrated/
+* https://github.com/Krten
+* http://opensuse.github.io/branding-guidelines/
+* https://github.com/hakimel/reveal.js
+* https://de.wikipedia.org/wiki/Versionsverwaltung
+* https://guides.github.com/features/mastering-markdown/
+* https://github.com/arslanbilal/git-cheat-sheet
+* https://github.com/detailyang/awesome-cheatsheet
+* https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
 --
 
-## Demo 3
-Slide 3.2
+### why?
+* the problem: How to save a file in different versions?
 
-```rust
-fn main() {
-    // A simple integer calculator:
-    // `+` or `-` means add or subtract by 1
-    // `*` or `/` means multiply or divide by 2
+![how not to git](img/howtogit001.png) ![how not to git](img/howtogit002.png)
 
-    let program = "+ + * - /";
-    let mut accumulator = 0;
+--
 
-    for token in program.chars() {
-        match token {
-            '+' => accumulator += 1,
-            '-' => accumulator -= 1,
-            '*' => accumulator *= 2,
-            '/' => accumulator /= 2,
-            _ => { /* ignore everything else */ }
-        }
-    }
+### a bit of boring theory ;)
 
-    println!("The program \"{}\" calculates the value {}",
-              program, accumulator);
-}
-```
+---
+
+## Version control systems (VCS)
+
+--
+
+### main features
+
+* **tracks** the **history of changes** (versions) of arbitrary files
+* *designed* for **collaboration** in teams
+* **any version** can be *recovered* at **any time**
+
+---
+
+### Sources & Copyright
+Sources:
+
