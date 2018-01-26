@@ -74,7 +74,7 @@ links on top
 ---
 
 ## Version control systems (VCS)
-### sorry - still some theory ;)
+### Sorry - still some theory ;)
 
 --
 
@@ -188,20 +188,20 @@ Head = Also sometimes called tip, this refers to the most recent commit, either 
 
 ---
 
-## git
+## Git
 
 --
 
-### some facts on git
+### Some facts on git
 
 * A **distributed version control system** (DVCS)
 * Aimed at speed, data integrity and support for distributed, non-linear workflows
-* was created by Linus Torvalds in 2005 (for the development of the Linux kernel)
-* free software distributed under GNU GPL v2
+* Was created by Linus Torvalds in 2005 (for the development of the Linux kernel)
+* Free software distributed under GNU GPL v2
 
 --
 
-### the name of git
+### The name of Git
 * *"I'm an egotistical bastard, and I name all my projects after myself. First 'Linux', now 'git'."* (Linus Torvalds)
   * (Britain, slang, pejorative) *A silly, incompetent, stupid, annoying or childish person (usually a man).*
 * The name **git** was given by Linus Torvalds when he wrote the very first version. 
@@ -209,23 +209,23 @@ Head = Also sometimes called tip, this refers to the most recent commit, either 
 
 --
 
-### what does the manpage say?
-* "git" can mean anything, depending on your mood.
-  * random three-letter combination that is pronounceable, and not actually used by any common UNIX command. The fact that it is a mispronounciation of "get" may or may not be relevant.
-  * stupid. contemptible and despicable. simple. Take your pick from the dictionary of slang.
-  * "global information tracker": you are in a good mood, and it actually works for you. Angels sing, and a light suddenly fills the room. 
-  * "goddamn idiotic truckload of sh*t": when it breaks
+### What does the manpage say?
+* "Git" can mean anything, depending on your mood.
+  * Random three-letter combination that is pronounceable, and not actually used by any common UNIX command. The fact that it is a mispronounciation of "get" may or may not be relevant.
+  * Stupid. contemptible and despicable. simple. Take your pick from the dictionary of slang.
+  * "Global information tracker": you are in a good mood, and it actually works for you. Angels sing, and a light suddenly fills the room. 
+  * "Goddamn idiotic truckload of sh*t": when it breaks
 
 ---
 
-## hands-on
-### enough of theory
+## Hands-on
+### Enough of theory
 
 --
 
 ### First-time git setup 1/3
 
-* install git
+* Install git
 
 ```bash
 zypper in git
@@ -236,12 +236,12 @@ zypper in git
 ### First-time git setup 2/3
 
 * There are *three layers* where git can be configured:
-  * system-wide: `git config --system`
-    * lives in: `/etc/gitconfig`
-  * user-specific: `git config --global`
-    * lives in: `~/.gitconfig`
-  * repository-specific: `git config --local`
-    * lives in: `.git/config` of the repository you are using at the moment
+  * System-wide: `git config --system`
+    * Lives in: `/etc/gitconfig`
+  * User-specific: `git config --global`
+    * Lives in: `~/.gitconfig`
+  * Repository-specific: `git config --local`
+    * Lives in: `.git/config` of the repository you are using at the moment
 * Keep hierarchy in mind: repository overwrites user overwrites system
 
 --
@@ -295,7 +295,7 @@ user:/tmp/howtogit/how-to-git> touch demofile.txt
 user:/tmp/howtogit/how-to-git> git add demofile.txt
 ```
 
-* stages a change
+* Stages a change
 * It’s necessary to stage and take a snapshot of the changes to include them in the project’s history
 * This command performs staging, the first part of that two-step process
 * Any changes that are staged will become a part of the next snapshot and a part of the project’s history
@@ -308,7 +308,7 @@ user:/tmp/howtogit/how-to-git> git add demofile.txt
 git commit
 ```
 
-* opens an editor to set a commit message
+* Opens an editor to set a commit message
 
 ```bash
 # Changes to be committed:
@@ -317,7 +317,7 @@ git commit
 added empty demofile.txt
 ```
 
-* after editing and saving the commit message this happens
+* After editing and saving the commit message this happens
 
 ```bash
 [master 63522a3] added empty demofile.txt
@@ -328,7 +328,7 @@ added empty demofile.txt
 --
 
 ### git commit 2/2
-* saves the snapshot to the project history and completes the change-tracking process
+* Saves the snapshot to the project history and completes the change-tracking process
 * In short, a commit functions like taking a photo. Anything that’s been staged with `git add` will become a part of the snapshot with `git commit`
 * What did I do wrong?
 
@@ -390,7 +390,7 @@ git branch
 * This command is typically used to combine changes made on two distinct branches
 * For example, a developer would merge when they want to combine changes from a feature branch into the master branch for deployment
 
-(*side note: This is where the term **merge request** in GitLab comes from*)
+(*Side note: This is where the term **merge request** in GitLab comes from*)
 
 --
 
@@ -411,7 +411,7 @@ Updating 98b9fa1..00d313d - Fast-forward
 
 * Updates the local line of development with updates from its remote counterpart (if a teammate has made commits to a branch on a remote repository)
 
-(*side note: This is where the term **pull request** in GitHub comes from*)
+(*Side note: This is where the term **pull request** in GitHub comes from*)
 
 --
 
@@ -554,5 +554,5 @@ git push
 
 ## Thank you for your attention :)
 ### This presentation can be found here
-### https://how-to-git.github.io
+### https://therealbro.github.io/how-to-git/
 ### https://github.com/TheRealBro/how-to-git 
