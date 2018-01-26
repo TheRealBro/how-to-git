@@ -472,7 +472,7 @@ git push --set-upstream origin master
 
 --
 
-### contribute to an existing branch on GitHub
+### Contribute to an existing branch on GitHub
 ```bash
 # assumption: a project called `repo` already exists on the machine
 # and a new branch has been pushed to GitHub.com 
