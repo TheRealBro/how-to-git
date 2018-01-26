@@ -1,5 +1,7 @@
 ## Version control
 
+![how not to git](img/howtogit007.png)
+
 Note:
 links on top
 * https://guides.github.com/introduction/git-handbook/
@@ -552,4 +554,5 @@ git push
 
 ## Thank you for your attention :)
 ### This presentation can be found here
+### https://how-to-git.github.io
 ### https://github.com/TheRealBro/how-to-git 
