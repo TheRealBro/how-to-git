@@ -559,5 +559,3 @@ git push
 ## Thank you for your attention :)
 ### This presentation can be found here
 ### https://therealbro.github.io/how-to-git/
-### https://github.com/TheRealBro/how-to-git
-### https://learngitbranching.js.org/
