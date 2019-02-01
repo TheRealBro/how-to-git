@@ -28,6 +28,8 @@ links on top
 * https://www.sitepoint.com/git-for-beginners/
 * https://www.youtube.com/playlist?list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4 (Git & GitHub YouTube short tutorials)
 * https://linuxacademy.com/blog/linux/git-terms-explained/
+* https://learngitbranching.js.org/
+* https://lab.github.com/
 
 --
 
@@ -541,6 +543,8 @@ git push
 * https://www.sitepoint.com/git-for-beginners/
 * https://www.youtube.com/playlist?list=PLg7s6cbtAD17Gw5u8644bgKhgRLiJXdX4 (Git & GitHub YouTube short tutorials)
 * https://linuxacademy.com/blog/linux/git-terms-explained/
+* https://learngitbranching.js.org/
+* https://lab.github.com/
 
 --
 
@@ -555,4 +559,5 @@ git push
 ## Thank you for your attention :)
 ### This presentation can be found here
 ### https://therealbro.github.io/how-to-git/
-### https://github.com/TheRealBro/how-to-git 
+### https://github.com/TheRealBro/how-to-git
+### https://learngitbranching.js.org/
